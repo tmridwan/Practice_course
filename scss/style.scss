@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+// navbar start
+
+
+
+#navbar-nav{
+    margin: 0 auto;
+    float: none;
+}
+#topNav {
+    background-color: #56AB2F;
+    color: #ffffff;
+    padding: 15px 0;
+    display: block;
+}
+.log{
+    text-decoration: none;
+    color: white;
+}
+
+
+// navbarend
+
+
+// course details photo
+
+
+#photo1 {
+    background: url("../img/photo1.jpeg") no-repeat center center;
+    background-size: cover;
+    min-height: 300px; 
+}
+  .home-inner1 {
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+// course details photo end
+
+// course details start
+
+#courseDetail{
+    margin-top: 30px;
+}
+.mainDiv{
+    margin: 0 auto;
+}
+.head {
+    position: relative;
+    padding-bottom: 50px; }
+  
+  .head::before {
+    position: absolute;
+    content: "";
+    background-color: #28af16;
+    width: 7%;
+    height: 2%; }
+  
+  .list-group {
+    border: 1px solid #a9c985; }
+  
+  .list-group-item {
+    border: 0px !important; }
+  
+  table {
+    border: 1px solid #28af16;
+    width: 100%;
+    font-size: 18px; }
+  
+  .tabh {
+    background-color: #28af16; 
+}
+  
+  td, th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px; 
+}
+  
+  .icon1 {
+    color: #28af16; 
+}
+  
+  .btn {
+    border: 1px solid #2f7e26 !important;
+    border-radius: 0px !important; 
+}
+  
+  .image {
+    width: 100%; 
+}
+
+.social{
+	font-size: 20px;
+	margin-top: 10px !important;
+}
+
+.soci{
+    color: rgb(29, 29, 29);
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.display{
+    display: contents;
+}
+.display1{
+    width: 80% !important;
+}
+
+
+
+// leave message
+.textArea{
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post{
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+//Subscribe
+
+#subscribe{
+    background-color: rgb(54, 175, 54);
+    min-height: 300px;
+    margin-top: 50px;
+}
+.inputF{
+    margin: 0 auto;
+}
+.inputS{
+    background-color: rgb(54, 175, 54) !important;
+    color: white !important;
+    width: 80% !important;
+    display: inline !important;
+}
+
+
+
+//FOOTER
+#footer1{
+    background: rgb(48, 48, 48);
+    color: #fff;
+}
+.footW{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.hr{
+    border-bottom: 1px solid rgb(54, 175, 54);
+    padding-bottom: 50px;
+}
+.link{
+    display: flex;
+}
+.flickerPhoto{
+    width: 100%;
+}
+#footer2{
+    padding: 30px;
+    background-color:rgb(48, 48, 48);
+    color: #fff;
+}
+#footer2 i{
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+#footer2 i:hover{
+    color: rgb(54, 175, 54);
+}
